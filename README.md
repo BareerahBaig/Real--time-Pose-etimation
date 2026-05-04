@@ -1,26 +1,10 @@
 # Realtime Multi-Person Pose Estimation
-By [Zhe Cao](https://people.eecs.berkeley.edu/~zhecao/), [Tomas Simon](http://www.cs.cmu.edu/~tsimon/), [Shih-En Wei](https://scholar.google.com/citations?user=sFQD3k4AAAAJ&hl=en), [Yaser Sheikh](http://www.cs.cmu.edu/~yaser/).
+by Bareerah Baig
 
-## Introduction
-Code repo for winning 2016 MSCOCO Keypoints Challenge, 2016 ECCV Best Demo Award, and 2017 CVPR Oral paper.  
 
-Watch our video result in [YouTube](https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s) or [our website](http://posefs1.perception.cs.cmu.edu/Users/ZheCao/humanpose.mp4). 
-
-We present a bottom-up approach for realtime multi-person pose estimation, without using any person detector. For more details, refer to our [CVPR'17 paper](https://arxiv.org/abs/1611.08050), our [oral presentation video recording](https://www.youtube.com/watch?v=OgQLDEAjAZ8&list=PLvsYSxrlO0Cl4J_fgMhj2ElVmGR5UWKpB) at CVPR 2017 or our [presentation slides](http://image-net.org/challenges/talks/2016/Multi-person%20pose%20estimation-CMU.pdf) at ILSVRC and COCO workshop 2016.
-
-<p align="left">
-<img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/dance.gif", width="720">
-</p>
-
-<p align="left">
-<img src="https://github.com/ZheC/Multi-Person-Pose-Estimation/blob/master/readme/shake.gif", width="720">
-</p>
-
-This project is licensed under the terms of the [license](LICENSE).
 
 ## Other Implementations
-Thank you all for the efforts for the reimplementation! If you have new implementation and want to share with others, feel free to make a pull request or email me! 
-- Our new C++ library [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) (testing only)
+
 - Tensorflow [[version 1]](https://github.com/ildoonet/tf-openpose) | [[version 2]](https://github.com/michalfaber/keras_Realtime_Multi-Person_Pose_Estimation) | [[version 3]](https://github.com/anatolix/keras_Realtime_Multi-Person_Pose_Estimation) | [[version 4]](https://github.com/raymon-tian/keras_Realtime_Multi-Person_Pose_Estimation) | [[version 5]](https://github.com/tensorlayer/openpose) | [[version 6]](https://github.com/YangZeyu95/unofficial-implement-of-openpose)  | [[version 7 - TF2.1]](https://github.com/MikeOfZen/Yet-Another-Openpose-Implementation) 
 - Pytorch [[version 1]](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation) | [[version 2]](https://github.com/last-one/Pytorch_Realtime_Multi-Person_Pose_Estimation) | [[version 3]](https://github.com/CVBox/PyTorchCV) 
 - Caffe2 [[version 1]](https://github.com/eddieyi/caffe2-pose-estimation)
@@ -70,18 +54,4 @@ Thank you all for the efforts for the reimplementation! If you have new implemen
 ## Citation
 Please cite the paper in your publications if it helps your research:
 
-    
-    
-    @inproceedings{cao2017realtime,
-      author = {Zhe Cao and Tomas Simon and Shih-En Wei and Yaser Sheikh},
-      booktitle = {CVPR},
-      title = {Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields},
-      year = {2017}
-      }
-	  
-    @inproceedings{wei2016cpm,
-      author = {Shih-En Wei and Varun Ramakrishna and Takeo Kanade and Yaser Sheikh},
-      booktitle = {CVPR},
-      title = {Convolutional pose machines},
-      year = {2016}
-      }
+ 
